@@ -1,11 +1,11 @@
 {
 	"name": "jsonld-context",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "",
-	"main": "jsonld-context.js",
+	"main": "context.js",
 	"scripts": {
 		"context-context": "./context-context.js > context-context.json",
-		"preinstall": "context-context",
+		"preinstall": "npm run context-context",
 		"test": "echo \"Error: no test specified\" && exit 1"
 	},
 	"repository": {
